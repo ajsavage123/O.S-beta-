@@ -1,0 +1,8 @@
+--- a/packages/apps/Launcher3/src/com/android/launcher3/config/FeatureFlags.java
++++ b/packages/apps/Launcher3/src/com/android/launcher3/config/FeatureFlags.java
+@@ -35,5 +35,5 @@
+-    public static final boolean ENABLE_SIMPLIFIED_LAYOUT = false;
++    public static final boolean ENABLE_SIMPLIFIED_LAYOUT = true;
+-    public static final boolean DARK_THEME_DEFAULT = false;
++    public static final boolean DARK_THEME_DEFAULT = true;
+ }

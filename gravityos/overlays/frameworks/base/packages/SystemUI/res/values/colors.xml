@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GravityOS Theme Colors -->
+    <color name="system_bar_background">#111111</color>
+    <color name="status_bar_background">#111111</color>
+    <color name="navigation_bar_background">#111111</color>
+
+    <!-- Quick Settings Layout Overrides (Colors) -->
+    <color name="qs_background_dark">#111111</color>
+    <color name="qs_tile_background">#4A90E2</color> <!-- Accent Color -->
+    <color name="qs_tile_label">#FFFFFF</color>
+
+    <!-- Default Quick Settings Tiles -->
+    <string name="quick_settings_tiles_default" translatable="false">
+        wifi,bt,flashlight,settings
+    </string>
+</resources>

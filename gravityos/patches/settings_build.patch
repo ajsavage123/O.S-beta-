@@ -1,0 +1,9 @@
+--- a/packages/apps/Settings/Android.bp
++++ b/packages/apps/Settings/Android.bp
+@@ -45,6 +45,7 @@
+         "src/**/*.java",
+         "src/**/*.kt",
++        "../../../gravityos/overlays/packages/apps/Settings/src/**/*.java",
+     ],
+     resource_dirs: ["res"],
+     static_libs: [

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="GravityOS Info">
+
+    <Preference
+        android:key="gravityos_version"
+        android:title="GravityOS Version"
+        android:summary="1.0-Beta" />
+
+    <Preference
+        android:key="gravityos_build_number"
+        android:title="Build Number"
+        android:summary="GOS-20250601-DEMO" />
+
+    <Preference
+        android:key="gravityos_tag"
+        android:title="Demo Tag"
+        android:summary="Official GravityOS Demo" />
+
+</PreferenceScreen>

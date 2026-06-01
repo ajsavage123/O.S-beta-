@@ -1,0 +1,5 @@
+Starting GravityOS Verification...
+[FAIL] System still booting or offline
+[PASS] Settings App Present
+[FAIL] Launcher not detected
+Verification Finished.

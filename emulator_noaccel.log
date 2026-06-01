@@ -1,0 +1,123 @@
+INFO         | Android emulator version 36.5.11.0 (build_id 15261927) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath /opt/android-sdk/system-images/android-34/google_apis/x86_64/
+INFO         | Increasing RAM size to 2048MB
+##############################################################################
+##                        WARNING - ACTION REQUIRED                         ##
+##  Consider using the '-metrics-collection' flag to help improve the       ##
+##  emulator by sending anonymized usage data. Or use the '-no-metrics'     ##
+##  flag to bypass this warning and turn off the metrics collection.        ##
+##  In a future release this warning will turn into a one-time blocking     ##
+##  prompt to ask for explicit user input regarding metrics collection.     ##
+##                                                                          ##
+##  Please see '-help-metrics-collection' for more details. You can use     ##
+##  '-metrics-to-file' or '-metrics-to-console' flags to see what type of   ##
+##  data is being collected by emulator as part of usage statistics.        ##
+##############################################################################
+INFO         | Guest GLES Driver: Auto (ext controls)
+WARNING      | Your AVD has been configured with an in-guest renderer, but the system image does not support guest rendering.Falling back to 'lavapipe' mode.
+INFO         | emuglConfig_init: vulkan_mode_selected:lavapipe gles_mode_selected:swangle
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `GravityOS_Pixel6` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU compatibility checks are not required
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `GravityOS_Pixel6` are met
+WARNING      | File System is not ext4, disable QuickbootFileBacked feature
+WARNING      | x86_64 emulation may not work without hardware acceleration!
+INFO         | Storing crashdata in: /tmp/android-jules/emu-crash-36.5.11.db, detection is enabled for process: 85229
+INFO         | Initializing gfxstream backend
+INFO         | android_startOpenglesRenderer: gpu info
+INFO         |
+INFO         | initIcdPaths: ICD set to 'lavapipe', using Lavapipe ICD
+INFO         | Setting ICD filenames for the loader = /opt/android-sdk/emulator/lib64/vulkan/lvp_icd.json
+INFO         | SharedLibrary::open for [/opt/android-sdk/emulator/qemu/linux-x86_64/lib64/vulkan/libvulkan.so]
+INFO         | SharedLibrary::open for [/opt/android-sdk/emulator/qemu/linux-x86_64/lib64/vulkan/libvulkan.so.1]
+INFO         | SharedLibrary::open for [/opt/android-sdk/emulator/lib64/vulkan/libvulkan.so]
+INFO         | Added library: /opt/android-sdk/emulator/lib64/vulkan/libvulkan.so
+INFO         | Selecting Vulkan device: llvmpipe (LLVM 21.0.0, 256 bits), Version: 1.4.318
+INFO         | SharedLibrary::open for [libX11]
+INFO         | SharedLibrary::open for [libX11-xcb]
+WARNING      | Could not open libX11-xcb.so, try libX11-xcb.so.1
+INFO         | SharedLibrary::open for [libX11-xcb.so.1]
+INFO         | Initializing VkEmulation features:
+INFO         |     glInteropSupported: false
+INFO         |     useDeferredCommands: true
+INFO         |     createResourceWithRequirements: true
+INFO         |     useVulkanComposition: false
+INFO         |     useVulkanNativeSwapchain: false
+INFO         |     enable guestRenderDoc: false
+INFO         |     ASTC LDR emulation mode: Gpu
+INFO         |     enable ETC2 emulation: true
+INFO         |     enable Ycbcr emulation: false
+INFO         |     guestVulkanOnly: false
+INFO         |     useDedicatedAllocations: false
+INFO         |     guestVulkanMaxApiVersion: 1.3.0
+INFO         | Graphics Adapter Vendor Google (Google Inc.)
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (Google SwiftShader)
+INFO         | Graphics API Version OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888
+INFO         | Graphics Device Extensions N/A
+INFO         | Disabling sparse binding feature support
+ERROR        | Setting read-only feature 'GLAsyncSwap' to '0'
+INFO         | Feature 'GLAsyncSwap' (50) is overridden to 'disabled'
+INFO         | Sending adb public key [QAAAAJn6KdFXRqYZgkxtld7iGqhPpTKREbDQicM1p46Qy0qMb4HIXRhVJvrrtCTvOGtaCI3k/AkWi+3xNyESC8ZjlQ5e9QLy9wM6R2i6xM1VZMbt6y8wTHHkfnDjH1NMxD2rBEmrWA/5qS9ob2KCfU7B3RpGX7woDsPSyiyVrUaAQToEQtnxl3wkDC97d5vgBwrh/M7wF9/cKj6le+pFrEQTLPvmLFMLa83Zka4i4gWePZatmjmJKoh3IIl7gJddWIcHCjMSJR21ma/CVr9+Y5C25TI5ni0IoAYMJ4l0VUWu7xOyWeOsbBUE/k0UBkVtMIQEFLqsglugQPYtXKhkjc8gYULnegT40jsOXQlQjFuapQady7YR6+7bvJLtLcSVJDl4zpLAp/+e5NpcERPrgqF3lRkxTT1a2taQy90JSOVkT3kLeMRLtvX/0+J/KqN5lDklicCJMaqzz+jWkdZNt1fXFsCjXpwrUp9diqfG4EHRwQDsPOyvAnt2CQTB7iz3iyUZEGbAZmkYt8UJjVNQXpqyf0a10gdpXHL405kDfb+hLVgbwChna96hfl8g5s5ANDCMA5aelE0N5S/emgRekW82zzgKjNVveFMvlrKhl46Nn+wgh0PeBaTSWdgWkG1HadLuKDZUwiiuziedAu3UvCy1b7DAVhcYlaSVeF76oRbh0uFE6NEbGgEAAQA= jules@unknown]
+INFO         | Userspace boot properties:
+INFO         |   androidboot.boot_devices=pci0000:00/0000:00:03.0 pci0000:00/0000:00:06.0
+INFO         |   androidboot.dalvik.vm.heapsize=512m
+INFO         |   androidboot.debug.hwui.renderer=skiagl
+INFO         |   androidboot.debug.sf.nobootanimation=1
+INFO         |   androidboot.hardware=ranchu
+INFO         |   androidboot.hardware.gltransport=pipe
+INFO         |   androidboot.hardware.vulkan=ranchu
+INFO         |   androidboot.logcat=*:V
+INFO         |   androidboot.opengles.version=196608
+INFO         |   androidboot.qemu=1
+INFO         |   androidboot.qemu.adb.pubkey=QAAAAJn6KdFXRqYZgkxtld7iGqhPpTKREbDQicM1p46Qy0qMb4HIXRhVJvrrtCTvOGtaCI3k/AkWi+3xNyESC8ZjlQ5e9QLy9wM6R2i6xM1VZMbt6y8wTHHkfnDjH1NMxD2rBEmrWA/5qS9ob2KCfU7B3RpGX7woDsPSyiyVrUaAQToEQtnxl3wkDC97d5vgBwrh/M7wF9/cKj6le+pFrEQTLPvmLFMLa83Zka4i4gWePZatmjmJKoh3IIl7gJddWIcHCjMSJR21ma/CVr9+Y5C25TI5ni0IoAYMJ4l0VUWu7xOyWeOsbBUE/k0UBkVtMIQEFLqsglugQPYtXKhkjc8gYULnegT40jsOXQlQjFuapQady7YR6+7bvJLtLcSVJDl4zpLAp/+e5NpcERPrgqF3lRkxTT1a2taQy90JSOVkT3kLeMRLtvX/0+J/KqN5lDklicCJMaqzz+jWkdZNt1fXFsCjXpwrUp9diqfG4EHRwQDsPOyvAnt2CQTB7iz3iyUZEGbAZmkYt8UJjVNQXpqyf0a10gdpXHL405kDfb+hLVgbwChna96hfl8g5s5ANDCMA5aelE0N5S/emgRekW82zzgKjNVveFMvlrKhl46Nn+wgh0PeBaTSWdgWkG1HadLuKDZUwiiuziedAu3UvCy1b7DAVhcYlaSVeF76oRbh0uFE6NEbGgEAAQA= jules@unknown
+INFO         |   androidboot.qemu.avd_name=GravityOS_Pixel6
+INFO         |   androidboot.qemu.camera_hq_edge_processing=0
+INFO         |   androidboot.qemu.camera_protocol_ver=1
+INFO         |   androidboot.qemu.cpuvulkan.version=4202496
+INFO         |   androidboot.qemu.gltransport.drawFlushInterval=800
+INFO         |   androidboot.qemu.gltransport.name=pipe
+INFO         |   androidboot.qemu.hwcodec.avcdec=2
+INFO         |   androidboot.qemu.hwcodec.hevcdec=2
+INFO         |   androidboot.qemu.hwcodec.vpxdec=2
+INFO         |   androidboot.qemu.settings.system.screen_off_timeout=2147483647
+INFO         |   androidboot.qemu.skin=1080x2400
+INFO         |   androidboot.qemu.virtiowifi=1
+INFO         |   androidboot.qemu.vsync=60
+INFO         |   androidboot.serialno=EMULATOR36X5X11X0
+INFO         |   androidboot.vbmeta.digest=451e57ed688ff746d2c636d52169ade253e2bc5bb30a5c3ff23679ca15d3bcd3
+INFO         |   androidboot.vbmeta.hash_alg=sha256
+INFO         |   androidboot.vbmeta.size=6656
+INFO         |   androidboot.veritymode=enforcing
+TCG doesn't support requested feature: CPUID.01H:ECX.avx [bit 28]
+TCG doesn't support requested feature: CPUID.01H:ECX.f16c [bit 29]
+TCG doesn't support requested feature: CPUID.01H:ECX.avx [bit 28]
+TCG doesn't support requested feature: CPUID.01H:ECX.f16c [bit 29]
+WARNING: cannnot unmap ptr 0x7f0922c01000 as it is in the protected range from 0x7f08a2c00000 to 0x7f0922e00000
+INFO         | Monitoring duration of emulator setup.
+WARNING      | Using fallback path for the emulator registration directory.
+WARNING      | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+INFO         | Using security allow list from: /opt/android-sdk/emulator/lib/emulator_access.json
+WARNING      | *** Basic token auth should only be used by android-studio ***
+INFO         | The active JSON Web Key Sets can be found here: /run/user/1001/avd/running/85229/jwks/28510a82-c75b-414d-a347-65be50a111bf/active.jwk
+INFO         | Scanning /run/user/1001/avd/running/85229/jwks/28510a82-c75b-414d-a347-65be50a111bf for jwk keys.
+INFO         | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+WARNING      | Using fallback path for the emulator registration directory.
+INFO         | Advertising in: /run/user/1001/avd/running/pid_85229.ini
+INFO         | Successfully initialized netsim WiFi
+INFO         | Activated packet streamer for bluetooth emulation
+INFO         | Setting display: 0 configuration to: 1080x2400, dpi: 420x420
+INFO         | setDisplayActiveConfig: id:0, 1080x2400
+INFO         | emulatorSetupEnvironment: Setting up screen background view and display layout at env:1080x2400, lcd:1080x2400
+INFO         | emulatorSetupEnvironment: Environment scene is not required
+INFO         | Loading snapshot 'default_boot'...
+WARNING      | Failed to process .ini file /home/jules/.android/emu-update-last-check.ini for reading.
+WARNING      | Device 'cache' does not have the requested snapshot 'default_boot'
+
+WARNING      | Failed to load snapshot 'default_boot'
+USER_INFO    | The emulator is performing a cold boot without a saved state because there's no snapshot and you have configured it not to save on exit.
+WARNING      | Failed to process .ini file /home/jules/.android/emu-update-last-check.ini for reading.

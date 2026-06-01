@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Force Dark Theme for Launcher -->
+    <bool name="is_dark_theme">true</bool>
+    <color name="launcher_background">#111111</color>
+    <color name="all_apps_container_color">#111111</color>
+    <color name="workspace_accent_color">#4A90E2</color>
+</resources>

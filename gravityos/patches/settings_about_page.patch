@@ -1,0 +1,14 @@
+--- a/packages/apps/Settings/res/xml/device_info_settings.xml
++++ b/packages/apps/Settings/res/xml/device_info_settings.xml
+@@ -25,4 +25,10 @@
+         android:key="my_device_info_header"
+         settings:controller="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoExtractor"/>
+
++    <!-- GravityOS Info Section -->
++    <Preference
++        android:key="gravityos_info"
++        android:title="GravityOS Info"
++        android:summary="Version, Build, and Demo Tag"
++        android:fragment="com.android.settings.gravityos.GravityOSInfoSettings"/>
++
+ </PreferenceScreen>
